@@ -7,7 +7,7 @@
 - Testing: Pytest, Jest
 
 🌟 **Projets Phares**
-[Vos projets]
+[Plateforme trading algorithmique et gestion de portefeuilles ]
 
 ### Contributions GitHub
 <picture>
