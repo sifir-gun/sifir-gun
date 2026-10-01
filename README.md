@@ -1,7 +1,7 @@
 # Guney Tasdelen
 
 **Architecte IA · Systèmes multi-agents / LLM / GenAI**
-Bassin franco-genevois · Missions France et Suisse · [Agence Wengraf](lien)
+· Missions France et Suisse · [Agence Wengraf](lien)
 
 Je conçois des systèmes multi-agents et des pipelines LLM menés jusqu'en production :
 orchestration, RAG, guardrails, traçabilité et évaluation embarqués dès la conception.
@@ -28,14 +28,14 @@ orchestration, RAG, guardrails, traçabilité et évaluation embarqués dès la 
 
 **[contract-decision-graph](lien)** : analyse de contrats fournisseurs en graphe d'agents.
 LangGraph, architecture hexagonale (ports et adaptateurs), validation humaine,
-Mistral par défaut ou Claude, embeddings locaux. CLI et interface web.
+Mistral par défaut, embeddings locaux. CLI et interface web.
 Journal de décisions scellé et rejouable, déploiement Kubernetes via Helm,
-images multi-architecture scannées en CI, couverture de tests supérieure à 95 %.
+images multi-architecture scannées en CI, couverture de tests supérieure à 98 %.
 
 ## En production (code client non public)
 
-- **Aide à la décision auditable, finance** : 4 agents en parallèle, verdict rendu par un moteur
-  déterministe, LLM cantonnés à l'explication, empreinte SHA-256 de chaque décision
+- **Aide à la décision auditable, finance** : 1 agents master, 4 sous-agents en parallèle, verdict rendu par un moteur
+  déterministe, LLM cantonnés à l'explication, CRAG, empreinte SHA-256 de chaque décision
 - **Plateforme d'investigation OSINT** : orchestrateur + 8 agents métier, 90+ sources,
   évaluation industrialisée, de 4 h à moins de 2 min par dossier
 - **SaaS GenAI B2B** : Next.js / NestJS en BFF, couche serveur unique, anonymisation RGPD
