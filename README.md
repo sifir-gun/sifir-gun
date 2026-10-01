@@ -19,7 +19,7 @@ orchestration, RAG, guardrails, traçabilité et évaluation embarqués dès la 
 | Domaine | Outils |
 |---|---|
 | IA | LangGraph, LangChain, n8n, Claude, OpenAI, Mistral, Gemini, GLM |
-| Backend | Python, FastAPI, TypeScript, NestJS |
+| Backend | Python, Rust, FastAPI, TypeScript, NestJS |
 | Données | PostgreSQL / pgvector, Supabase, Redis |
 | Frontend | Next.js, React, Vue.js 3 |
 | Infra | Docker, Kubernetes (Helm), GitHub Actions, Nginx, Linux, auto-hébergé / on-premise |
